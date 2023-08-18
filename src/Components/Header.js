@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
 class Header extends Component {
@@ -13,7 +12,6 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -22,35 +20,41 @@ class Header extends Component {
           <a className="mobile-btn" href="#home" title="Hide navigation">
             Hide navigation
           </a>
-
+          
           <ul id="nav" className="nav">
+          <li className="current">
+              <a href="/">
+              <img src="images/Duru_Cooperation_Logo_Transparent.png" alt=""/> 
+              </a>
+            </li>
+          
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                Features
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                Services
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                About Us
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Login
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                Get in touch
               </a>
             </li>
           </ul>

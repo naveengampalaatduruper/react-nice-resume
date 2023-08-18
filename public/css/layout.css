@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: linear-gradient( #EFF5FC, #FDFEFF); }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -56,14 +56,15 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
-   letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   font: 64px/1.1em 'opensans-bold', sans-serif;
+    color: #181717;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+    text-align: left;
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #ddd;
+   color: #6d6c6c;
    margin: 0 auto;
    width: 70%;
 }
@@ -90,7 +91,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #0762f9; }
+header .social li a:hover { color: #EFF5FC; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -112,7 +113,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #0762f9; }
+header .scrolldown a:hover { color: #EFF5FC; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -135,13 +136,13 @@ header .scrolldown a:hover { color: #0762f9; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #EFF5FC; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
-   min-height: 48px;
+   min-height: 80px;
    width: auto;
 
    /* center align the menu */
@@ -164,7 +165,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #2b2929;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -189,7 +190,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #0762f9; }
+#about a:hover, #about a:focus { color: #EFF5FC ; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -928,10 +929,11 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: white;
    font-size: 14px;
    text-align: center;
    position: relative;
+   background: #0D47A1;
 }
 
 footer a, footer a:visited { color: #525252; }
